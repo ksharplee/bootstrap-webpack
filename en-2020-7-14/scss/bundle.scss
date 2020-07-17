@@ -1,0 +1,89 @@
+// 2020-7-14 英文版
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1260px
+);
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1230px
+) !default;
+$font-size-base: 0.875rem;
+$h6-font-size: 16px;
+$link-color: #666;
+$link-hover-color: #691a19;
+$link-hover-decoration: none;
+$body-color: #666;
+$text-muted: #999;
+$theme-colors: ("primary": #691a19, "secondary": #ccc, "light": #f5f5f5);
+$navbar-light-color: #333;
+$navbar-light-hover-color: #691a19;
+$navbar-light-active-color: #691a19;
+$navbar-brand-padding-y: 0;
+$navbar-padding-x:   0;
+$carousel-indicator-width: 11px;
+$carousel-indicator-height: 11px;
+$carousel-indicator-spacer: 5px;
+$font-family-sans-serif:      -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", "Microsoft Yahei", Arial, "Noto Sans", "PingFangSC-Regular", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+$font-family-monospace:       SFMono-Regular, Menlo, Monaco, Consolas, "PingFangSC-Regular", "Microsoft Yahei", "Liberation Mono", "Courier New", monospace;
+$pagination-active-bg:#555;
+$pagination-active-border-color:#555;
+$pagination-border-color: #f5f5f5;
+$pagination-bg: #f5f5f5;
+$pagination-padding-y-lg: .75rem;
+$pagination-padding-x-lg: 1.25rem;
+$pagination-disabled-bg:  #fafafa;
+$pagination-disabled-border-color:  #fafafa;
+$pagination-disabled-color:         #ccc;
+$form-group-margin-bottom: 20px;
+$input-placeholder-color: #999;
+
+@import "../../bootstrap-4.5.0/scss/functions";
+@import "../../bootstrap-4.5.0/scss/variables";
+@import "../../bootstrap-4.5.0/scss/mixins";
+
+$theme-colors: map-remove($theme-colors, "info", "warning");
+
+@import "../../bootstrap-4.5.0/scss/root";
+@import "../../bootstrap-4.5.0/scss/reboot";
+@import "../../bootstrap-4.5.0/scss/type";
+@import "../../bootstrap-4.5.0/scss/images";
+@import "../../bootstrap-4.5.0/scss/code";
+@import "../../bootstrap-4.5.0/scss/grid";
+// @import "../../bootstrap-4.5.0/scss/tables";
+@import "../../bootstrap-4.5.0/scss/forms";
+@import "../../bootstrap-4.5.0/scss/buttons";
+@import "../../bootstrap-4.5.0/scss/transitions";
+// @import "../../bootstrap-4.5.0/scss/dropdown";
+// @import "../../bootstrap-4.5.0/scss/button-group";
+@import "../../bootstrap-4.5.0/scss/input-group";
+@import "../../bootstrap-4.5.0/scss/custom-forms";
+@import "../../bootstrap-4.5.0/scss/nav";
+@import "../../bootstrap-4.5.0/scss/navbar";
+@import "../../bootstrap-4.5.0/scss/card";
+// @import "../../bootstrap-4.5.0/scss/breadcrumb";
+@import "../../bootstrap-4.5.0/scss/pagination";
+// @import "../../bootstrap-4.5.0/scss/badge";
+// @import "../../bootstrap-4.5.0/scss/jumbotron";
+// @import "../../bootstrap-4.5.0/scss/alert";
+// @import "../../bootstrap-4.5.0/scss/progress";
+@import "../../bootstrap-4.5.0/scss/media";
+// @import "../../bootstrap-4.5.0/scss/list-group";
+@import "../../bootstrap-4.5.0/scss/close";
+// @import "../../bootstrap-4.5.0/scss/toasts";
+// @import "../../bootstrap-4.5.0/scss/modal";
+// @import "../../bootstrap-4.5.0/scss/tooltip";
+// @import "../../bootstrap-4.5.0/scss/popover";
+@import "../../bootstrap-4.5.0/scss/carousel";
+// @import "../../bootstrap-4.5.0/scss/spinners";
+@import "../../bootstrap-4.5.0/scss/utilities";
+// @import "../../bootstrap-4.5.0/scss/print";
+
+
+// complement
+@import "./complement"
