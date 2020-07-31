@@ -125,6 +125,10 @@
   font-weight: bold;
 }
 
+.page-item {
+  margin: 10px 5px;
+}
+
 // iconfont
 .icon-2x {
   font-size: 18px !important;
@@ -179,12 +183,12 @@
 
 // carousel
 .banner-container {
-  height: 500px;
+  padding-bottom: 50%;
   background-position: center 0;
   background-size: cover;
 
   &.small {
-    height: 400px;
+    padding-bottom: 40%;
   }
 }
 
@@ -367,11 +371,13 @@
   }
 
   .banner-container {
+    padding-bottom: 0;
     height: 800px;
     background-position: center 0;
     background-size: cover;
 
     &.small {
+      padding-bottom: 0;
       height: 260px;
     }
   }

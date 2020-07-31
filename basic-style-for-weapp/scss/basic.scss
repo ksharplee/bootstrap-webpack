@@ -3,6 +3,7 @@ $theme-colors: ("primary": #4cbaab, "danger": #f84f2d, "secondary": #ccc, "light
 $grid-breakpoints: (
   xs: 0,
 );
+$border-radius-lg: 1rem;
 
 @import "../../bootstrap-for-weapp/scss/functions";
 @import "../../bootstrap-for-weapp/scss/variables";
